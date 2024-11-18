@@ -58,7 +58,7 @@ router.get('/content-types/text', (req, res) => {
   res.send('This is a plain text response');
 });
 
-router.post('/check/', (req, res) => {
+router.post('/check', (req, res) => {
     try {
         const data = req.body;
         
